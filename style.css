@@ -1,0 +1,92 @@
+.navpanal{
+     display: flex;
+    width: 100%;
+    background-color: rgb(155, 19, 19);
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid rgb(15, 3, 3);
+   
+}
+   
+.home{
+margin-top: 8px;
+  min-width: 80px;
+  max-width: 80px;
+  min-height: 30px;
+  max-height: 30px;
+  border: 3px solid white;
+  margin-left: 20px;
+  padding: 5px;
+   background-color: rgb(18, 7, 83);
+  text-align: center;
+  
+
+
+}
+
+.menu a{
+    text-decoration: none;
+  color: antiquewhite;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 5px;
+  padding-left: 15px;
+}
+.navpanal div{
+    display: inline-flex;
+}
+.menu ul{
+    list-style: none;
+    position: static;
+}
+.menu ul li {
+    display: inline-flex;   
+}
+.menu{
+    margin-left: 70%;
+}
+.secondrw{
+  width: 90%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  z-index: -1;
+    
+}
+.image1{
+    height: 200px;
+    width: 600spx;
+  margin-top: 10spx;
+  margin-right: 40px;
+ 
+}
+.para1{
+    padding: 10px;
+}
+.para3{
+  width: 90%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  padding: 1px;
+
+}
+.para{
+  padding-left: 30px;
+  padding-right: 30px;
+  flex: 3;
+  text-align: justify;
+
+}
+.footer{
+  width: 100%;
+display: flex;
+ padding: 2px;
+  background-color: #eb1d1d;
+
+}
+
+
